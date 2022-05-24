@@ -39,7 +39,7 @@ async def helpstr(message: types.Message):
     await message.answer_chat_action("typing")
     await message.reply(
         "Hello how to use <code>/chk cc/mm/yy/cvv</<code>'Yo, soy CHECKER REVENGE... un bot simple creado por ALE, envía /cmds para obtener una lista de comandos de trabajo
-El chat está autorizado: falso'
+El chat está autorizado: falso"
     )
     
 
