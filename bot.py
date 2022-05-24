@@ -39,6 +39,13 @@ async def helpstr(message: types.Message):
     await message.answer_chat_action("typing")
     await message.reply(
 "yo, soy checker revenge... un bot simple creado por ale, envía /cmds para obtener una lista de comandos de trabajo"
+If (substr($message, "/start") == 0){
+     if ($userId == 'tu id'){
+          El bot te responde solo a tí
+     } else {
+           Lo siento no eres mi creador
+     }
+}
     )
     
 
