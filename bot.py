@@ -37,8 +37,7 @@ rnd = ''.join(random.choices(string.ascii_lowercase +
 @dp.message_handler(commands=['start', 'help'], commands_prefix=PREFIX)
 async def helpstr(message: types.Message):
     await message.answer_chat_action("typing")
-    await message.reply(Yo, soy CHECKER REVENGE... un bot simple creado por ALE, envía /cmds para obtener una lista de comandos de trabajo
-El chat está autorizado: falso
+    await message.reply(Yo, soy CHECKER REVENGE... un bot simple creado por ALE, envía /cmds para obtener una lista de comandos de trabajo 
     )
     
 
