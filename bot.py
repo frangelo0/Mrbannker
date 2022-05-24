@@ -38,7 +38,8 @@ rnd = ''.join(random.choices(string.ascii_lowercase +
 async def helpstr(message: types.Message):
     await message.answer_chat_action("typing")
     await message.reply(
-        "Hello how to use <code>/chk cc/mm/yy/cvv</code>\nREPO <a href='https://github.com/xbinner18/Mrbannker'>Here</a>"
+        "Hello how to use <code>/chk cc/mm/yy/cvv</code>\nREPO <a href='Yo, soy CHECKER BOT REVENGE... un bot simple creado por ale, envía /cmds para obtener una lista de comandos de trabajo
+El chat está autorizado: falso'>Here</a>"
     )
     
 
@@ -89,6 +90,7 @@ TOOK ➟ <b>{toc - tic:0.4f}</b>(s)
 TOOK ➟ <b>{toc - tic:0.4f}</b>(s)
 <b>CHKBY</b>➟ <a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a>
 """)
+<b>Bot:</b>@yotefuno
     else:
         await message.reply("Error❌: REQ failed")
         
@@ -109,7 +111,7 @@ async def binio(message: types.Message):
 <b>BIN INFO</b>
 <code>{k.get_text()[62:]}</code>
 CheckedBy: <a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a>
-<b>Bot:</b> @BinnerRoBoT
+<b>Bot:</b> @YOTEFUNO
 ╘═════════
 """
     await message.reply(INFO)
